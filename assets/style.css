@@ -13,6 +13,9 @@ body {
   justify-content: space-between;
   color: white;
 }
+.container-fluid{
+  background-color: rgb(37, 37, 37);
+}
 
 .middle {
   display: flex;
@@ -89,20 +92,28 @@ hr {
 .second_wrapper {
   height: 100%;
   width: 100vw;
-  background-color: rgb(37, 37, 37);
   color: white;
+  background-color: rgb(37, 37, 37);
   background-image: url('../images/1.svg');
+  background-size: 80% 80%;
+  background-attachment: scroll;
+  background-position:-150%  80% ;
+  background-repeat: no-repeat;
 }
 .second_part {
   width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
+  
+
 }
 .leftSide {
   width: 40%;
   margin-top: 150px;
   margin-bottom: 60px;
+
+ 
 }
 .leftHead {
   color: rgb(141, 101, 14);
@@ -128,7 +139,7 @@ hr {
     display: none;
   }
   .landing {
-    object-fit: cover;
+    object-fit: cover
   }
   .caption {
     top: 40%;
@@ -151,6 +162,9 @@ hr {
   .arroww {
     top: 75%;
     left: 45%;
+  }
+  .second_wrapper {
+    background-size: 100% 100%;
   }
   .second_part {
     width: 90%;
